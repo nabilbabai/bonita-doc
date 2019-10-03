@@ -1,4 +1,6 @@
-# Manage a process
+# Manage BPM processes with JAVA API code examples
+
+These lines of code illustrate how the Bonita Engine JAVA API lets you list and start BPM processes, or update process variable values.
 
 ## List the deployed processes
 
