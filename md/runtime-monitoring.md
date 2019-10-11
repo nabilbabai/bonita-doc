@@ -42,6 +42,7 @@ Bonita-related metrics are **enabled by default** and cannot be disabled. Here a
 under the logical key name **bonita.bpmengine.connector.pending**
 * The total number of executed connector works (since the last start of Bonita runtime), under the logical key name **bonita.bpmengine.connector.executed**
 * The total number of treated BPM messages (since the last start of Bonita runtime), under the logical key name **bonita.bpmengine.message.executed**
+* The total number BPM messages of BPM messages (since the last start of Bonita runtime), under the logical key name **bonita.bpmengine.message.sent**
 
 ### Technical metrics
 The following available metrics are **disabled by default** and can be enabled.
