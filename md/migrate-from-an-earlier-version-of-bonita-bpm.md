@@ -309,10 +309,10 @@ function loadCSS(filename){
     file.setAttribute("href", filename);
     document.head.appendChild(file);
 }
-loadCSS("./images/asciinema-player.css");
+loadCSS("bonita/images/${varVersion}/asciinema-player.css");
 </script>
-<asciinema-player src="images/case_overview_update_mode-ascii.cast" speed="2" theme="monokai" title="Update case overview console output example" cols="240" rows="32"></asciinema-player>
-<script src="./images/asciinema-player.js"></script>
+<asciinema-player src="bonita/images/${varVersion}/case_overview_update_mode-ascii.cast" speed="2" theme="monokai" title="Update case overview console output example" cols="240" rows="32"></asciinema-player>
+<script src="bonita/images/${varVersion}/asciinema-player.js"></script>
 
 ## Migrate your cluster
 
